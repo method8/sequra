@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  order_id: 1
+  fee: 0.0095
+  disbursed_amount: 270.98
+
+two:
+  order_id: 2
+  fee: 0.01
+  disbursed_amount: 35.62
+
+three:
+  order_id: 3
+  fee: 0.0085
+  disbursed_amount: 374.54

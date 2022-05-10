@@ -1,0 +1,9 @@
+:concurrency: 25
+:pidfile: ./tmp/pids/sidekiq.pid
+:logfile: ./log/sidekiq.log
+:queues:
+  - default
+:schedule:
+  first:
+    cron: '0 0 * * 1 *'   # Runs every Monday at midnight
+    class: 'WeeklyDisbursementWorker'

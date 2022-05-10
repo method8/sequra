@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  name: William
+  email: william.farrugia@gmail.com
+  cif: B611111112
+
+two:
+  id: 2
+  name: Giulia
+  email: giulia.farrugia@gmail.com
+  cif: B611111113
