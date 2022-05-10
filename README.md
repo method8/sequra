@@ -63,3 +63,7 @@ because it was felt that the performance would be lost on the SQLLite database.
 Unit tests were only introduced for the models and mostly to test for some of the 
 validations. Minitest was used for unit tests and while they could definitely be more 
 thorough, the effort was put on good programming practices.
+
+#### Rounding of amounts
+
+In production and in a multi currency environment the best practice would be to store the currency and a lookup table for each currency with exponent to round the amount according to currency. In this task it was decided to leave this out and store the amounts in full and allow this to be formatted at a later stage
